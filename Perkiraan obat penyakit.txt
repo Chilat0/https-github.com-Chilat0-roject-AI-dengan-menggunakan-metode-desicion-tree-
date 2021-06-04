@@ -1,0 +1,51 @@
+# include <stdio.h>
+
+# include <conio.h>
+
+
+
+main()
+
+{
+
+int p,l,s,r,lb,kb,lp,kp;
+
+float lli,kli;
+
+char kode;
+
+
+printf("Apa Gejala Anda..? \n");
+
+printf("================== \n");
+
+printf("1. Pusing \n");
+
+printf("2. Mual \n");
+
+printf("3. Batuk \n");
+
+printf("================== \n");
+
+printf("Masukan Kode Gejala [1, 2, 3] : ");
+
+scanf("%c", &kode);
+
+switch (kode)
+
+{
+case '1':
+printf("Obat Anda Adalah Bodrek di kombinasi dengan Sprit \n");
+break;
+case '2':
+printf("Obat Anda adalah Antimo di kombinasi dengan Bodrex \n");
+break;
+case '3':
+printf("Obat Anda Adalah Komix di kombinasi dengan Coca-cola \n");
+break;
+default:
+printf(" Kode Tidak Ada");
+}
+getch();
+return 0;
+}
